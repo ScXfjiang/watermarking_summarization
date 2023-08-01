@@ -129,7 +129,7 @@ The developed code successfully works on both datasets:
 	\item \href{https://www.kaggle.com/datasets/sunnysai12345/news-summary}{News Summary Dataset}
 \end{itemize}
 
-The core statistics of the two datasets are illustrated in Table \ref{tab:dataset_stat}.
+And the core statistics of the two datasets are illustrated in Table \ref{tab:dataset_stat}.
 
 \begin{table}[H]
 	\begin{tabular}{|c|c|c|}
@@ -173,8 +173,8 @@ In addition to watermarking, an investigation into how model size influences sum
 		\hline
 		& ROUGE-1 & ROUGE-2 & ROUGE-L \\
 		\hline
-		T5-base without watermarking  &  still training &  still training &  still training \\
-		T5-base with watermarking     &  still training &  still training &  still training \\
+		T5-base without watermarking  &  \textbf{0.4174} &  \textbf{0.1957} &  \textbf{0.2961} \\
+		T5-base with watermarking     &  0.4031 &  0.1758 &  0.2781 \\
 		T5-large without watermarking &  still training &  still training &  still training \\
 		T5-large with watermarking    &  still training &  still training &  still training \\
 		\hline
@@ -196,7 +196,7 @@ I believe the main cause of this phenomenon is that the T5 model already has str
 
 \appendix
 \section*{Appendix: Watermark Algorithm Review}
-Warkmarking is the process of embedding signals into generated text that are invisible to humans but can be identified algorithmically by watermark detection algorithms.  In this section, I will discuss the algorithms provided in \cite{kirchenbauer2023watermark}.
+Watermarking is the process of embedding signals into generated text that are invisible to humans but can be identified algorithmically by watermark detection algorithms.  In this section, I will discuss the algorithms provided in \cite{kirchenbauer2023watermark}.
 
 \begin{figure}[H]
 	\centering
