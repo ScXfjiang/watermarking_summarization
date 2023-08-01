@@ -44,4 +44,9 @@ python test.py \
 | T5-large with watermarking    |  0.4780 |  0.2401 |  0.3413 |
 
 #### CNN-DailyMail Newspaper Text Summarization Dataset
-Still training.
+|                               | ROUGE-1 | ROUGE-2 | ROUGE-L |
+|-------------------------------|:-------:|:-------:|:-------:|
+| T5-base without watermarking  |  still training |  still training |  still training |
+| T5-base with watermarking     |  still training |  still training |  still training |
+| T5-large without watermarking |  still training |  still training |  still training |
+| T5-large with watermarking    |  still training |  still training |  still training |
