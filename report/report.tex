@@ -147,7 +147,7 @@ However, I have found that conducting experiments on the CNN-DailyMail News Data
 The watermarking algorithm has been incorporated into the T5-based summarization model, serving as a LogitsProcessor to adjust the output probabilities of the language model. Core Python files from the repository \href{https://github.com/jwkirchenbauer/lm-watermarking}{A Watermark for Large Language Models} were included in my repo as modules to apply the watermarking algorithm.
 
 \section{Results}
-Table \ref{tab::rouge-scores_news} and \ref{tab:rouge-scores_cnn} illustrates how watermarking affects the performance of the summarization model. As the results indicate, the application of watermarking unsurprisingly lowers the performance. This reduction in effectiveness is attributable to the watermarking algorithm's adjustment of the output probabilities of the language model. By doing so, it constrains the choices available to the language model, thus negatively impacting its performance.\\
+Table \ref{tab:rouge-scores_news} and \ref{tab:rouge-scores_cnn} illustrates how watermarking affects the performance of the summarization model. As the results indicate, the application of watermarking unsurprisingly lowers the performance. This reduction in effectiveness is attributable to the watermarking algorithm's adjustment of the output probabilities of the language model. By doing so, it constrains the choices available to the language model, thus negatively impacting its performance.\\
 
 In addition to watermarking, an investigation into how model size influences summarization performance was conducted. The findings reveal that a larger model size enhances the performance of the summarization.
 
