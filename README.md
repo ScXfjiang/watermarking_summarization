@@ -48,5 +48,5 @@ python test.py \
 |-------------------------------|:-------:|:-------:|:-------:|
 | T5-base without watermarking  |  0.4174 |  0.1957 |  0.2961 |
 | T5-base with watermarking     |  0.4031 |  0.1758 |  0.2781 |
-| T5-large without watermarking |  **0.4218** |  **0.1991** |  **0.2996** |
-| T5-large with watermarking    |  0.4057 |  0.1756 |  0.2800 |
+| T5-large without watermarking |  **0.4218** |  **0.1991** |  0.2996 |
+| T5-large with watermarking    |  0.4057 |  0.1756 |  **0.2800** |
