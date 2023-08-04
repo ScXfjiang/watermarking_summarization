@@ -56,7 +56,7 @@ def main():
     z_scores = []
     for summary in summaries:
         z_scores.append(watermark_detector.detect(summary)["z_score"])
-    with open(os.path.join(log_dir, "rouge.txt"), "a") as f:
+    with open(os.path.join(log_dir, "z_score.txt"), "a") as f:
         f.write("average z_score: {}\n".format(np.mean(z_scores)))
 
 
