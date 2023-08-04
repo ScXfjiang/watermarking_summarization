@@ -52,6 +52,8 @@ python test.py \
 | T5-large with watermarking    |  0.4057 |  0.1756 |  0.2800 |
 
 ### **Watermark Detection**
+z-scores of non-watermarked/watermarked summaries in the test dataset.
+
 #### News Summary Dataset
 |   model  | watermark_false | watermark_true |
 |:--------:|:---------------:|:--------------:|
