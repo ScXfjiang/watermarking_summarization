@@ -50,3 +50,16 @@ python test.py \
 | T5-base with watermarking     |  0.4031 |  0.1758 |  0.2781 |
 | T5-large without watermarking |  **0.4218** |  **0.1991** |  **0.2996** |
 | T5-large with watermarking    |  0.4057 |  0.1756 |  0.2800 |
+
+### **Watermark Detection**
+#### News Summary Dataset
+|   model  | watermark_false | watermark_true |
+|:--------:|:---------------:|:--------------:|
+|  T5-base |      0.2505     |     2.3785     |
+| T5_large |      0.1919     |     2.6262     |
+
+#### CNN-DailyMail Newspaper Text Summarization Dataset
+|   model  | watermark_false | watermark_true |
+|:--------:|:---------------:|:--------------:|
+|  T5-base |      0.0807     |     2.2043     |
+| T5_large |      0.0179     |     2.4674     |
